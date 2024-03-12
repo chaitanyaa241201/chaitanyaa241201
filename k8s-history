@@ -1,0 +1,89 @@
+ apt-get update
+    2  halt
+    3  ls
+    4  vim pod.yml
+    5  vim rs.yml
+    6  vim nm.yml
+    7  kubectl apply -f nm.yml 
+    8  kubectl apply -f pod.yml 
+    9  vim pod.yml
+   10  kubectl apply -f pod.yml 
+   11  kubectl apply -f rs.yml 
+   12  vim rs.yml
+   13  kubectl apply -f rs.yml 
+   14  vim rs.yml
+   15  kubectl apply -f rs.yml 
+   16  vim rs.yml
+   17  kubectl apply -f rs.yml 
+   18  kubectl get pods -n frontend
+   19  kubectl get pods -n frontend -o wide
+   20  curl  192.168.0.6
+   21  kubectl get pods -n frontend -o wide
+   22  kubectl delete pod my-pod
+   23  kubectl delete pod my-pod -n frontend
+   24  kubectl get pods -n frontend -o wide
+   25  curl   192.168.0.7
+   26  curl 192.168.0.7
+   27  curl 192.168.0.7:8080
+   28  vim services.yml
+   29  kubectl apply -f services.yml 
+   30  kubectl get services 
+   31  vim services.yml 
+   32  kubectl apply -f services.yml 
+   33  kubectl get services 
+   34  kubectl get services -n frontend
+   35  kubectl get nodes 
+   36  kubectl get nodes -o wide
+   37  vim services.yml 
+   38  kubectl apply -f services.yml 
+   39  kubectl get nodes -o wide
+   40  kubectl gt serivces
+   41  kubectl egt serivces
+   42  kubectl get serivces
+   43  kubectl get services
+   44  kubectl get nodes
+   45  kubectl get nodes -o wide
+   46  ls
+   47  git
+   48  git verio
+   49  git verion
+   50  git version
+   51  git clone https://github.com/chaitanyaa241201
+   52  git clone https://github.com/chaitanyaa241201/chaitanyaa241201.git
+   53  ls
+   54  cd chaitanyaa241201/
+   55  ls
+   56  cd ..
+   57  cd chaitanyaa241201/
+   58  ls
+   59  cp -r ../* .
+   60  cp -R ../* .
+   61  cp  ../* .
+   62  cp -r ../* .
+   63  cp -r ../*.yml .
+   64  ls
+   65  pwd
+   66  cd ..
+   67  l
+   68  lsl
+   69  ls
+   70  cd chaitanyaa241201/
+   71  ls
+   72  rm -rf chaitanyaa241201/
+   73  ls
+   74  git add .
+   75  git push origin main
+   76  git commit -m "new files added"
+   77  git config --global user.email "chaitanyakulkarni823@gmail.com"
+   78  git config --global user.name "chaitanyaa241201"
+   79  l
+   80  ls
+   81  git push origin main
+   82  git remote remove origin
+   83  git remote add origin https://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@github.com/chaitanyaa241201/chaitanyaa241201.git
+   84  git push origin main
+   85  git add .
+   86  git commit -m "new files"
+   87  git push origin main
+   88  ls
+   89  history
