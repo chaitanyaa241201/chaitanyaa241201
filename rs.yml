@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+    name: my-rs
+    namespace: frontend
+spec: 
+    replicas: 3
+    selector: 
+      matchLabels: 
+          name: chaitanya
+    template: 
+      metadata:
+        labels: 
+           name: chaitanya
+      spec: 
+         containers:
+          - name: image
+            image: pranaypatil01/backend:v1
+            ports: 
+            - containerPort: 8080
+
