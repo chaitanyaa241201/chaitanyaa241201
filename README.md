@@ -1,5 +1,5 @@
 <h1 align="center">Hii 👋, I'm Chaitanya Kulkarni</h1>
-<h3 align="center">DevOps Engineer with 6 month of experience, passionate about building, deploying, and maintaining infrastructure and applications. Skilled in automation, CI/CD pipelines, and cloud technologies. Driven to streamline processes and ensure smooth software delivery.</h3>
+<h3 align="center"> *DevOps Engineer with 1 Year of experience*, passionate about building, deploying, and maintaining infrastructure and applications. Skilled in automation, CI/CD pipelines, and cloud technologies. Driven to streamline processes and ensure smooth software delivery.</h3>
 
 - 👨‍💻 All of my projects are available at (https://github.com/chaitanyaa241201?tab=projects)
 
